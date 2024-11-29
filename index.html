@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutriclinic - Pequenos Passos</title>
+    <style>
+        /* Estilos Globais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f7f7f7; /* Fundo claro */
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Faz com que o conteúdo ocupe pelo menos toda a altura da tela */
+            overflow-x: hidden; /* Impede a rolagem horizontal */
+        }
+
+        /* Limita o conteúdo para não ultrapassar a tela */
+        * {
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #C6E5B1; /* Verde pastel */
+            width: 100%;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            position: relative;
+            z-index: 100;
+        }
+
+        /* Logo à esquerda */
+        header .logo img {
+            max-width: 200px; /* Ajuste o tamanho da logo conforme necessário */
+            height: auto;
+        }
+
+        /* Ícones sociais à direita */
+        .social-icons {
+            display: flex;
+            gap: 15px; /* Espaçamento entre os ícones */
+        }
+
+        .social-icons a img {
+            width: 50px; /* Tamanho dos ícones */
+            height: 50px;
+            transition: transform 0.3s ease;
+        }
+
+        .social-icons a:hover img {
+            transform: scale(1.2); /* Efeito de aumentar o ícone ao passar o mouse */
+        }
+
+        section {
+            padding: 20px 10px;
+            text-align: center;
+            max-width: 800px; /* Define largura máxima */
+            margin: 0 auto; /* Centraliza a seção */
+        }
+
+        section h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        section p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+            margin: 8px 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            background-color: #6a7fdb;
+            color: #fff;
+            padding: 12px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #5a6cc3;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #C6E5B1; /* Verde pastel */
+            width: 100%;
+            padding: 15px;
+            text-align: center;
+            font-size: 14px;
+            color: #333;
+            position: relative;
+            z-index: 100;
+            margin-top: auto; /* Empurra o rodapé para o final da página */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Logo à esquerda -->
+        <div class="logo">
+            <!-- Substitua o caminho da logo -->
+            <img src="images/logo.jpg" alt="Logo NutriPequenosPassos">
+        </div>
+
+        <!-- Ícones de redes sociais à direita -->
+        <div class="social-icons">
+            <!-- Substitua os caminhos das imagens dos ícones -->
+            <a href="https://www.instagram.com/nutripequenospassos/" target="_blank" title="Instagram">
+                <img src="images/Instagram_icon.png" alt="Instagram">
+            </a>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <section id="about">
+        <a href="consulta.html" class="cta-button" target="_blank">Agendar Consulta</a>
+        <h2>Sobre Nós</h2>
+        <p>Giovanna Brunetti, 22 anos e Milena Schirley Medeiros, 23 anos.<p>
+
+            <p>Formadas pela PUCPR em 2024, Pós graduadas em Nutrição Materno infantil em 2025, tendo experiências individuais isoladas, focadas em: gestação, puerpério, fertilidade, amamentação, introdução alimentar, TEA, vegetarianismo e idosos. Além disso, colaboradoras de um projeto de frequência alimentar em universidades do Brasil, apresentado no CONBRAN (Congresso Brasileiro de Nutrição) - o maior evento da área de nutrição no Brasil organizado pela Associação Brasileira de Nutrição (ASBRAN), ele reúne profissionais, pesquisadores, estudantes e outros interessados em nutrição para discutir temas relevantes e atualizados relacionados à saúde, alimentação e bem-estar.<p>
+            
+            <p>Buscamos além de nossa formação, sermos pessoas melhores e trocar experiências com nossos pacientes, em busca de uma parceria unificada e respeitosa acima de tudo, sempre aprendendo com nossos pacientes e priorizando um relacionamento ético.
+            </p>
+    </section>
+
+    <section id="services">
+        <h2>Nosso objetivo        </h2>
+        <p>Na nossa clínica, acreditamos que a nutrição vai muito além de simplesmente oferecer um plano alimentar; ela é uma ferramenta poderosa para transformar vidas e construir um futuro mais saudável. Nosso principal objetivo é ajudar gestantes, crianças, adolescentes e suas famílias a encontrar o equilíbrio por meio de uma alimentação adequada e hábitos saudáveis que perdurem por toda a vida. <p>
+            <p>O trabalho começa desde cedo, promovendo uma educação alimentar positiva e cativante. Queremos que as crianças cresçam em lares onde a alimentação saudável seja valorizada, compreendida e incorporada de forma natural. Sabemos que hábitos alimentares são ensinados pelo exemplo, e, por isso, o envolvimento de toda a família é primordial. Atuamos de maneira integrada, orientando não apenas a criança, mas também os pais e responsáveis, para que juntos possam construir um ambiente que favoreça escolhas alimentares conscientes e sustentáveis.<p>
+            <p>Além disso, reconhecemos que cada criança tem suas particularidades e que aspectos emocionais e comportamentais influenciam diretamente sua relação com a comida. Por isso, buscamos compreender a fundo o perfil psicológico de cada criança e adolescente que atendemos, especialmente aquelas que enfrentam desafios como TDAH, TEA e outras particularidades. Nossa abordagem inclui estratégias adaptadas para acolher e engajar essas crianças no processo de reeducação alimentar, ajudando-as a avançar na aceitação de uma alimentação saudável de forma respeitosa, gradual e acolhedora.
+            .</p>
+            <img src="images/cozinhar.png" alt="Imagem representando nosso objetivo" style="max-width: 80%; height: auto; margin: 20px auto; display: block;">
+            <p>Nosso compromisso vai além da saúde física; buscamos formar indivíduos mais autônomos e engajados com o próprio bem-estar. Incentivamos o desenvolvimento de habilidades culinárias desde cedo, mostrando que cozinhar é um ato de cuidado e amor consigo e com o próximo. Também trabalhamos para diminuir o tempo excessivo em telas, motivando crianças e adolescentes a explorar o mundo real, a descobrir o prazer de preparar os próprios alimentos e a se conectar com momentos simples, mas essenciais.<p>
+                <p>Nosso trabalho é fundamentado na prevenção. Queremos evitar o surgimento de doenças que aparecem de forma precoce e cada vez mais agressiva, como obesidade, diabetes e hipertensão. Para isso, fornecemos às famílias a “fórmula” essencial: conhecimento, prática e motivação para manterem a saúde e o bem-estar no longo prazo.<p>
+               <p> Nosso atendimento é totalmente personalizado, acolhendo não apenas a criança, mas também seus pais e responsáveis. Valorizamos o papel da família nesse processo e orientamos cada membro para que todos possam contribuir e se beneficiar da mudança. Acreditamos que transformar a alimentação é um passo fundamental para fortalecer os laços familiares, criando lares mais felizes, harmoniosos e saudáveis.<p>
+               <p> Nosso propósito é claro: formar gerações mais saudáveis, conscientes e felizes, transformando lares e, consequentemente, o mundo em um lugar melhor.<p>
+                <img src="images/coração.jpeg" alt="Imagem representando nosso objetivo" style="max-width: 50%; height: auto; margin: 20px auto; display: block;">
+                
+    </section>
+
+    <section id="location">
+        <h2>Onde Atuamos</h2>
+        <p>Atendemos tanto online quanto de forma física, será uma escolha do paciente, seja retorno ou não. Sempre antes das nossas consultas é necessário preencher um formulário para sabermos informações prévias sobre nossos pacientes, facilitando o atendimento. Demais exames podem ser solicitados também, portanto fique atento após agendar sua consulta!
+        </p>
+        <a href="consulta.html" class="cta-button" target="_blank">Agendar Consulta</a>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 NutriPequenosPassos. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
